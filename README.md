@@ -7,3 +7,5 @@ Seperate displays for calculation and result.
 Can take input from keyboard as well.
 
 Special css features like screen colour transition.
+
+Handles all sorts of Exception cases.
