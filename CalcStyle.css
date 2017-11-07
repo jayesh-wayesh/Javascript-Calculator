@@ -33,7 +33,7 @@ button:focus{   /** element has focus, for accepting keyboard or mouse events **
 }
 
 #screen #result {
-  font-size: 50px;
+  font-size: 25px;
 }
 
 .num, .equals, .C, .CE{
