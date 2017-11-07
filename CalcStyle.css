@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+
+body{
+  text-align: center;
+}
+
+
+button:focus{   /** element has focus, for accepting keyboard or mouse events **/ 
+  outline: 0;
+}
+
+#calculator{
+    font-family: "Quicksand", sans-serif;
+    margin: 60px auto;             /* from top */
+    padding: 0;
+    width: 300px;
+    background-color: black;
+    box-shadow: 10px 10px 5px #888888;
+  
+}
+
+#screen{
+  height: 150px;
+  width: auto;
+ -webkit-animation:bgChange 2s 2s alternate infinite;
+ transition: all 2s ease;
+  color: whitesmoke;
+}
+
+#screen #calc {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+#screen #result {
+  font-size: 50px;
+}
+
+.num, .equals, .C, .CE{
+  margin: 0;
+  width: 75px;
+  height: 60px;
+  font-size: 25px;
+  background-color: #1D1E22;
+  color: white;
+  border: none;
+}
+
+.x{
+    background-color: black;
+}
+
+.num:hover, .equals:hover, .C:hover, .CE:hover{
+  background-color: #1a1a1a;
+}
+
+.x:hover{
+    background-color: silver;
+    color: black;
+}
+
+@-webkit-keyframes bgChange {
+    0% {
+       background:#24b4de; 
+    }
+    
+    50% {
+      background:#17a928;
+    }
+    
+    100% {
+        background:#399cb9;
+    }
+}
